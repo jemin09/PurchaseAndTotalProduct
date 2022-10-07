@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.table1{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.col1{
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 10px;
+}
+.th1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+.score75, .total150{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+.score50, .total100{
+    background-color: lightpink;
+    font-weight: bold;
+}
+.remBtn{
+    margin: 2px;
+    background-color: red;
+    color: white;
+} 
